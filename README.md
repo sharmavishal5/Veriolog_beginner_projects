@@ -23,6 +23,14 @@ This project serves as an introduction to Verilog, focusing on fundamental digit
    - Supports **addition, subtraction, AND, OR, XOR, and shift operations**.
    - Uses a **case statement** to select operations.
    - Outputs **zero flag and carry flag**.
+     
+4. **Digital Clock (digital_clock)**
+   
+   - Implements a real-time clock using Verilog.
+   - Uses a counter-based approach to track hours, minutes, and seconds.
+   - Simulated with a testbench to verify accurate timekeeping.
+   - Generates waveform outputs to visualize clock transitions.
+   - Supports reset functionality to set time back to zero.
 
 ## Upcoming Projects
 

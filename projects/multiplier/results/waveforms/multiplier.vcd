@@ -1,0 +1,58 @@
+$date
+   Sun Mar  9 10:18:15 2025
+$end
+
+$version
+  2024.2.0
+  $dumpfile ("multiplier.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module multest $end
+$var reg 16 ! A [15:0] $end
+$var reg 16 " B [15:0] $end
+$var wire 32 # Out [31:0] $end
+$scope module dut $end
+$var wire 16 $ A [15:0] $end
+$var wire 16 % B [15:0] $end
+$var reg 32 & Out [31:0] $end
+$var integer 32 ' i [31:0] $end
+$var reg 32 ( partial_sum [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+bx !
+bx "
+bx #
+bx $
+bx %
+bx &
+bx '
+bx (
+$end
+
+#10000
+b11 !
+b10 "
+b110 #
+b11 $
+b10 %
+b110 &
+b10000 '
+b110 (
+
+#30000
+b1010 !
+b101 "
+b110010 #
+b1010 $
+b101 %
+b110010 &
+b10000 '
+b110010 (

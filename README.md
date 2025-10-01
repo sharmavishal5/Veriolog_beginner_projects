@@ -31,38 +31,12 @@ This project serves as an introduction to Verilog, focusing on fundamental digit
    - Simulated with a testbench to verify accurate timekeeping.
    - Generates waveform outputs to visualize clock transitions.
    - Supports reset functionality to set time back to zero.
+5. **Linear Feedback Shift Register (LFSR)**
 
-## Upcoming Projects
-
-1. **4-bit Counter**
-
-   - Implements an **up/down counter**.
-   - Uses **synchronous and asynchronous reset**.
-   - Supports **enable and load functionality**.
-
-2. **Shift Register**
-
-   - Implements a **serial-in, serial-out (SISO) shift register**.
-   - Explores **parallel load and shift operations**.
-   - Useful for **data serialization and buffering**.
-
-3. **FSM-based Traffic Light Controller**
-
-   - Simulates a **real-world traffic light system**.
-   - Uses **state transitions to control lights**.
-   - Implements a **timing mechanism** for state durations.
-
-4. **VGA Controller (Basic Graphics Output)**
-
-   - Generates **video signals** for display output.
-   - Uses **pixel clock synchronization**.
-   - Introduces **memory-mapped video display concepts**.
-
-## Tools and Environment
-
-- **Simulator**: ModelSim (Basic Version), Vivado Simulator (XSIM).
-- **Editor**: VS Code.
-- **Future FPGA Testing**: Once resources are available, projects may be tested on an FPGA board.
+   - Implements a pseudo-random number generator using a shift register and XOR feedback logic.
+   - Uses a tapped feedback polynomial for bit generation.
+   - Can be configured for different lengths (e.g., 4-bit, 8-bit).
+   - Generates a maximum-length sequence before repeating (depending on polynomial choice).
 
 ## Goals
 
